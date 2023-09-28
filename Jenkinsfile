@@ -10,7 +10,7 @@ pipeline {
     stages {
     stage('Git checkout') {
             steps {
-                git branch: 'main', credentialsId: 'github_credential', url: 'https://github.com/sunithabidugu/Payment-Service.git'
+                git branch: 'main', credentialsId: 'github_credential', url: 'https://github.com/VignathaNVR/searchview-obrs.git'
             }
         }
 
